@@ -26,7 +26,7 @@ jobs:
       - name: Tests
         uses: coactions/setup-xvfb@v1
         with:
-        run: npm run test -- --no-watch --code-coverage
+          run: npm run test -- --no-watch --code-coverage
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
